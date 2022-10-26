@@ -1,5 +1,78 @@
-#title 
+#title a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+#title h1
 {
     text-align: center;
-    color: green;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    line-height: 70px;
+    font-size: 50px;
+    margin: 0;
+}
+
+#title
+{
+    background-color:#005005;
+    position: relative;
+    height: 70px;
+}
+
+body
+{
+   background-color:#2e7d32;
+}
+
+#flashGameContainer
+{
+    margin: auto;
+    width: fit-content;
+}
+
+
+
+.gameTitle
+{
+    color:black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+}
+
+#gamesList
+{
+    padding: 5px;
+}
+
+.thumb
+{
+    height: 300px;
+}
+
+.polaroid
+{
+    float: left;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.polaroid .container
+{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
