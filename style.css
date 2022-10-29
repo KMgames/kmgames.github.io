@@ -24,9 +24,16 @@
 
 #title
 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color:#005005;
     position: relative;
     height: 70px;
+    transition: 0.2s;
+}
+
+#title:hover
+{
+    transform: scale(0.98);
 }
 
 body
@@ -40,14 +47,12 @@ body
     width: fit-content;
 }
 
-
-
 .gameTitle
 {
     color:black;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    text-decoration: underline;
+    cursor: default;
 }
 
 #gamesList
@@ -64,9 +69,17 @@ body
 {
     float: left;
     width: fit-content;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: black;
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    padding: 5px;
+    margin: 5px;
+}
+
+.polaroid:hover
+{
+    transform: scale(0.98);
 }
 
 .polaroid .container
